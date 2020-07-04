@@ -12,10 +12,10 @@ sleep(3)
 
 username = webdriver.find_element_by_name('username')
 sleep(2)
-username.send_keys('developer_md_92')
+username.send_keys('your_user_name')
 password = webdriver.find_element_by_name('password')
 sleep(3)
-password.send_keys('2427869211')
+password.send_keys('your_password')
 
 
 button_login = webdriver.find_element_by_css_selector('#react-root > section > main > div > article > div > div:nth-child(1) > div > form > div:nth-child(4) > button')
